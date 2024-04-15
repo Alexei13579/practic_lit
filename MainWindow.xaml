@@ -1,0 +1,31 @@
+﻿<Window x:Class="Lebedev_pract_Litvin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lebedev_pract_Litvin"
+        mc:Ignorable="d"
+        Title="Mainwindow" Height="450" Width="800" Background="Turquoise">
+    <StackPanel>
+        <TextBlock  Width="100" Height="100"/>
+        <StackPanel Orientation="Horizontal" Margin="210,10">
+            <Image Source="C:\Users\student\Desktop\Lebedev_pract_Litvin\картинки\free-icon-user-149452.png" Height="40" Width="40"  />
+            
+            <TextBox Height="30" Width="250" Name="LogBox"/>
+        </StackPanel>
+        <TextBlock Name="oshibka1" TextAlignment="Center"/>
+        <StackPanel Orientation="Horizontal"  Width="400" Margin="30">
+            <Image Source="C:\Users\student\Desktop\Lebedev_pract_Litvin\картинки\Ð_ÐµÐ·_Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ñ__(1)-RZflv27Ci-transformed.png" Height="50" Width="50"/>
+            <PasswordBox x:Name="PasswrdBox" Width="250" Height="30"/>
+            <TextBox Name="TextBox" Visibility="Collapsed" Width="250" Height="30"/>
+            <Button x:Name="EyeBtn" Height="40" Width="50" Background="Transparent" Click="EyeBtn_Click" Margin="10">
+                <Image Source="C:\Users\student\Desktop\Lebedev_pract_Litvin\картинки\Ð_ÐµÐ·_Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ñ__(2)-transformed.png" Width="40" Height="40" RenderTransformOrigin="0.5,0.667"/>
+            </Button>
+        </StackPanel>
+        <StackPanel Orientation="Vertical">
+            <Button Content="Не зарегистрированы? Зарегистрироваться" FontWeight="Bold" Margin="10" Height="40" Width="300" Click="Button_click_1" Background="Transparent" BorderBrush="Transparent" Name="reg" />
+            <Button Height="40" Width="140" Content="Войти" FontWeight="Bold" FontSize="20" Background="Gold" Click="Button_click" x:Name="voity"/>
+        </StackPanel>
+    </StackPanel>
+    
+</Window>

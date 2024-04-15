@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="картинки\free-icon-user-149452.png" />
+    <None Remove="картинки\Ð_ÐµÐ·_Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ñ_-V5ATHGUql-transformed.png" />
+    <None Remove="картинки\Ð_ÐµÐ·_Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ñ__%281%29-RZflv27Ci-transformed.png" />
+    <None Remove="картинки\Без названия %281%29.png" />
+    <None Remove="картинки\Без названия %282%29.png" />
+    <None Remove="картинки\Без названия.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="картинки\free-icon-user-149452.png" />
+    <Resource Include="картинки\Ð_ÐµÐ·_Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ñ_-V5ATHGUql-transformed.png" />
+    <Resource Include="картинки\Ð_ÐµÐ·_Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ñ__(1)-RZflv27Ci-transformed.png" />
+    <Resource Include="картинки\Без названия (1).png" />
+    <Resource Include="картинки\Без названия (2).png" />
+    <Resource Include="картинки\Без названия.png" />
+  </ItemGroup>
+
+</Project>
